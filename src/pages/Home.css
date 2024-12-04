@@ -1,0 +1,143 @@
+/* Contenedor principal de la página */
+.home-container {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+    min-height: 100vh;
+  }
+  
+  /* Título principal */
+  .home-container h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 30px;
+    font-size: 2.5em;
+  }
+  
+  /* Contenedor para el formulario de creación de publicaciones */
+  .post-form-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+  }
+  
+  /* Títulos dentro del formulario */
+  .post-form-container h2 {
+    text-align: center;
+    font-size: 1.8em;
+    margin-bottom: 20px;
+  }
+  
+  /* Estilos del formulario */
+  .post-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .form-field {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-field label {
+    font-size: 1em;
+    color: #333;
+    margin-bottom: 5px;
+  }
+  
+  .form-field input,
+  .form-field textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+    width: 100%;
+  }
+  
+  button {
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Estilos para el contenedor de publicaciones */
+  .posts-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  /* Tarjeta de cada publicación */
+  .post-card {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .post-card h3 {
+    font-size: 1.6em;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .post-card p {
+    font-size: 1.2em;
+    color: #666;
+    line-height: 1.6;
+  }
+
+  .register-btn {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #28a745; /* Color verde */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .register-btn:hover {
+    background-color: #218838; /* Color verde más oscuro al hacer hover */
+  }
+
+  .logout-button {
+    background-color: #ff4d4d; /* Rojo brillante */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-bottom: 20px; /* Espaciado con respecto a otros elementos */
+    position: absolute; /* Posición relativa al contenedor principal */
+    top: 10px; /* Distancia desde el borde superior */
+    right: 10px; /* Distancia desde el borde derecho */
+    transition: background-color 0.3s ease;
+  }
+  
+  .logout-button:hover {
+    background-color: #e60000; /* Rojo más oscuro al pasar el mouse */
+  }
+
+  .post-card p {
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .post-card p strong {
+    font-weight: bold;
+  }
